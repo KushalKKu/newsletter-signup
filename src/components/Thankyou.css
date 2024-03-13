@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(234, 29%, 20%) ;
+}
+
+.card{
+    background-color: white;
+    padding: 10%;
+    border-radius: 20px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border-radius: 8px;
+    margin-top:20px;
+    border: none;
+    outline: none;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-weight: 700;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(4,100%,67%);
+}
+
+.thank-img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width:50px;
+    margin-bottom: 0;
+}
+
+.thank-h1{
+    margin-top:25px;
+    line-height: 3.5rem;
+    font-size: 3rem;
+    font-weight:bold;
+}
+
+.thank-p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
