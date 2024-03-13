@@ -8,7 +8,7 @@ function App() {
 <>
 <BrowserRouter basename="/newsletter-sign">
 <Routes>
-  <Route path='/newsletter-sign' element={<Sign/>}/>
+  <Route path='/' element={<Sign/>}/>
   <Route path='/Thankyou/:email' element={<Thankyou/>}/>
 </Routes>
 </BrowserRouter>
