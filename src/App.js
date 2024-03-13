@@ -6,9 +6,9 @@ import { Route,Routes, BrowserRouter } from 'react-router-dom';
 function App() {
   return (
 <>
-<BrowserRouter basename="/admin">
+<BrowserRouter basename="/newsletter-sign">
 <Routes>
-  <Route path='/' element={<Sign/>}/>
+  <Route path='/newsletter-sign' element={<Sign/>}/>
   <Route path='/Thankyou/:email' element={<Thankyou/>}/>
 </Routes>
 </BrowserRouter>
